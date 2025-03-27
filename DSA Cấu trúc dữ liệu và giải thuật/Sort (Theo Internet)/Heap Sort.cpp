@@ -10,9 +10,12 @@ using namespace std;
 -9 3 44 10 0 89 93 12 15.5 20.25
 */
 /*
-Các nốt ko phải nốt lá là 3 nốt đầu tiên trong 1 Max Heap
+Các nốt ko phải nốt lá là các phần tử có chỉ số từ 0 => n/2 - 1 trong 1 Max Heap
 
-Để xây dựng 1 Max Heap, phảu xét 3 nốt ko phải là nốt lá
+Để xây dựng 1 Max Heap, phảu xét 3 nốt ko phải là nốt lá.
+
+Nếu là nốt lá thì nốt tại đó ko có con nào
+Nếu ko phải là nốt lá thì nốt tại đó có ít nhất 1 con
 
 Các nốt ko phải nốt là là từ 0 => n/2 - 1
 
