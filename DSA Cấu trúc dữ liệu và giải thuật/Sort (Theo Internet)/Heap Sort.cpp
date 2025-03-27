@@ -12,12 +12,12 @@ using namespace std;
 /*
 Các nốt ko phải nốt lá là các phần tử có chỉ số từ 0 => n/2 - 1 trong 1 Max Heap
 
-Để xây dựng 1 Max Heap, phảu xét 3 nốt ko phải là nốt lá.
+Để xây dựng 1 Max Heap, phải xét 3 nốt ko phải là nốt lá.
 
 Nếu là nốt lá thì nốt tại đó ko có con nào
 Nếu ko phải là nốt lá thì nốt tại đó có ít nhất 1 con
 
-Các nốt ko phải nốt là là từ 0 => n/2 - 1
+Các nốt ko phải nốt lá là từ 0 => n/2 - 1
 
 Heap Sort:
 Sau khi xây xong Max Heap thì lần lượt hoán vị phần tử lớn nhất (HIỆN TẠI của cả mảng) với phần tử cuối cùng trong mảng
